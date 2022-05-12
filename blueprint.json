@@ -1,0 +1,15 @@
+{
+   
+  "identifier": "aws-route",
+  "depends_on": "aws-igw",
+  "about": {
+    "title": "AWS route",
+    "explanation": "AWS Route"
+  },
+  "configuration": {
+    "vpc_id" : "aws_vpc.main.id",
+     "cidr_block" : "10.0.1.0/24",
+    "gateway_id" : "aws_internet_gateway.example.id"
+    
+  }
+}
