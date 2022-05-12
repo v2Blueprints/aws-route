@@ -1,7 +1,7 @@
 {
    
-  "identifier": "aws-route",
-  "depends_on": "aws-igw",
+	"identifier": "aws-route",
+	"depends_on": "aws-igw",
   "about": {
     "title": "AWS route",
     "explanation": "AWS Route"
