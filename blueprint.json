@@ -4,11 +4,11 @@
 	"depends_on": "aws-igw",
   "about": {
     "title": "AWS route",
-    "explanation": "AWS Route"
+    "explanation": "AWS Route not depends on depends on what gateways are in gateway_id"
   },
   "configuration": {
     "vpc_id" : "aws_vpc.main.id",
-     "cidr_block" : "10.0.1.0/24",
+     "cidr_block" : "0.0.0.0/0",
     "gateway_id" : "aws_internet_gateway.example.id"
     
   }
